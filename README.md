@@ -5,20 +5,6 @@
 
 ---
 
-## 🛠 Project Overview
-
-YTDL-Pro is more than just a wrapper. It is a standalone environment designed to handle all complexities of video downloading automatically.
-
-| Feature               | Description                                                              |
-| :-------------------- | :----------------------------------------------------------------------- |
-| **Self-Healing**      | Automatically detects and installs missing Python modules on boot.       |
-| **Integrated FFmpeg** | Checks for system-wide FFmpeg and provides an automated Winget fix.      |
-| **Professional Boot** | A borderless splash screen with real-time initialization logs.           |
-| **Multi-Language**    | Native support for English and German based on system locale.            |
-| **Stealth Mode**      | Completely hides background terminal windows for a clean GUI experience. |
-
----
-
 ## 🏗️ Technical Credits
 
 This project stands on the shoulders of giants. We gratefully acknowledge the following original works:
