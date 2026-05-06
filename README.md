@@ -28,6 +28,22 @@ This project stands on the shoulders of giants. We gratefully acknowledge the fo
 * **Multimedia:** [FFmpeg](https://ffmpeg.org/) – Handling complex stream muxing and conversions.
 
 ---
+## ▶️ Run from Source
+
+To start the app, simply run the Python file:
+
+python "Yt-dl UI.py"
+
+Or just double-click the .py file if Python is properly installed.
+
+⚠️ Requirements
+Python 3.10+ installed
+Recommended:
+FFmpeg (for audio/video processing)
+Node.js (for yt-dlp compatibility)
+📝 Notes
+Missing dependencies are installed automatically (self-healing).
+If something doesn’t work, use the FFmpeg Fix inside the app.
 
 ## 🚀 Building the Executable
 
