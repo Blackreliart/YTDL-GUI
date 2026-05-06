@@ -1,4 +1,4 @@
-# 📺 YTDL-Pro UI
+# 📺 yt-dlp UI
 
 > **A high-performance, modern YouTube Downloader for Windows.**
 > Optimized for simplicity, speed, and a seamless "native app" feel.
