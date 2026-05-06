@@ -43,6 +43,7 @@ Or just double-click the .py file if Python is properly installed.
 - Recommended:
   - FFmpeg (for audio/video processing)
   - Node.js (for yt-dlp compatibility)
+    -EXE file in RELEASES doesn't require Python installation
 
 ### 📝 Notes
 - Missing dependencies are installed automatically (self-healing).
