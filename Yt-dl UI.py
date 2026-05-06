@@ -6,7 +6,6 @@ import time
 import locale
 from pathlib import Path
 
-# --- 1. SPRACH-LOGIK & ERKLÄRUNGEN ---
 def get_strings():
     lang = locale.getdefaultlocale()[0]
     
@@ -48,7 +47,7 @@ def get_strings():
 
 T = get_strings()
 
-# --- 2. BOOT LOGIK MIT FFmpeg CHECK ---
+# --- 2. BOOT LOGIK FFmpeg CHECK ---
 def check_all_dependencies(splash_callback):
     # 1. Python Module
     dependencies = ["yt-dlp", "customtkinter"]
@@ -72,7 +71,7 @@ def check_all_dependencies(splash_callback):
         splash_callback("FFmpeg OK!")
     except:
         splash_callback(T["status_ffmpeg_missing"])
-        time.sleep(2) # Warnung anzeigen
+        time.sleep(2)
 
     splash_callback(T["status_init"])
     time.sleep(0.5)
@@ -109,7 +108,7 @@ class SplashScreen:
 if __name__ == "__main__":
     SplashScreen()
 
-    # HAUPTPROGRAMM STARTET HIER
+    # MAIN PROGRAM
     import customtkinter as ctk
     from tkinter import filedialog, messagebox
     import yt_dlp
@@ -151,7 +150,7 @@ if __name__ == "__main__":
             self.dl_btn = ctk.CTkButton(self, text=T["btn_dl"], command=self.start_download, height=45, font=("Arial", 12, "bold"))
             self.dl_btn.grid(row=5, column=0, pady=10)
 
-            # FFmpeg Fix Button (nur für Windows)
+            # FFmpeg Fix Button (only Windows)
             self.ffmpeg_fix = ctk.CTkButton(self, text="Install FFmpeg (Fix)", command=self.install_ffmpeg_logic, fg_color="#cc7a00", height=25)
             self.ffmpeg_fix.grid(row=6, column=0, pady=5)
 
