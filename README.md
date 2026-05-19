@@ -1,4 +1,4 @@
-# 📺 yt-dlp UI
+# 📺 YTDL-GUI
 
 > **A modern YouTube Downloader for Windows.**
 > Designed to be simple, reliable, and easy to use.
