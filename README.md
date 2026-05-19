@@ -19,6 +19,9 @@ YTDL-GUI is a user-friendly wrapper around yt-dlp that handles the complexities 
 
 ---
 
+### 🛡️ Note on Antivirus / False Positives
+Since the compiled EXE uses PyInstaller and interacts with system tools like `winget` to install FFmpeg, a few overly sensitive antivirus scanners might flag the file (e.g., as `Wacatac`). This is a **100% false positive**. The code is fully open-source and can be reviewed above. If you don't trust the EXE, simply run it from source!
+
 ## 🏗️ Technical Credits
 
 This project makes use of the following excellent tools and libraries:
