@@ -29,14 +29,6 @@ A modern, user-friendly **YouTube Downloader & Streaming Player** featuring a sl
 
 ---
 
-## 🖥️ Preview
-
-> *Add application screenshots here!*
-> 
-> `![Screenshot](https://via.placeholder.com/800x450?text=YTDL-Pro+Preview)`
-
----
-
 ## 🛠️ Requirements
 
 To ensure everything runs smoothly, make sure you have the following prerequisites installed:
